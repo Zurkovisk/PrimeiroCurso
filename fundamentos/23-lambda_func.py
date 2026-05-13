@@ -24,12 +24,12 @@ movies_list = ["Titanic", "The GodFather", "Inception", "Jurassic Park", "The Ma
 ratings = {
     "Titanic": [8.5, 9.0, 7.5],
     "The GodFather": [9.5, 9.8, 8.0],
-    "Incetion": [8.0, 7.0, 8.5],
+    "Inception": [8.0, 7.0, 8.5],
     "Jurassic Park": [7.5, 7.0, 8.0],
     "The Matrix": [8.8, 9.2, 8.5],
 }
 
-# Função para calcular a média de availiações de um filme
+# Função para calcular a média de avaliações de um filme
 average_rating = lambda movie_name: sum(ratings[movie_name]) / len(ratings[movie_name])
 
 # Função que verifica se um filme está na lista

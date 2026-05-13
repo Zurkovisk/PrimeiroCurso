@@ -2,7 +2,7 @@
  *args - Utilizamos ele quando não temos certeza de quantos arguments queremos ter numa função.
  - Os argumentos são passados como uma tupla
  **kwargs - Além dos valores podemos passar também as respectivas chaves para cada argumento.
- - Os argumenos são passados como um dicionário
+ - Os argumentos são passados como um dicionário
 """
 # 1 - Soma de números
 def sum(*num):
