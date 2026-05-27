@@ -24,9 +24,9 @@ print(f"A média de avaliações é: {calculate_average():.2f}")
 # 3 - Função para cadastrar um filme:
 def create_movie():
     name = input("Digite o nome do filme:\n")
-    yearLaunch = int(input("Digite o ano de lançamento do filme:\n"))
-    moviePrice = float(input("Digite o preço do filme:\n"))
+    year_launch = int(input("Digite o ano de lançamento do filme:\n"))
+    movie_price = float(input("Digite o preço do filme:\n"))
     rating = float(input("Digite a nota do filme:\n"))
-    print(f"{name} ({yearLaunch}) - R$ {moviePrice:.2f}")
+    print(f"{name} ({year_launch}) - R$ {movie_price:.2f}")
     
 create_movie()

@@ -1,5 +1,5 @@
 filmsList = ["Inception", "The Shawshank Redemption",
-             "The Dark Kgnith", "Pulp Fiction", "Interstellar"]
+             "The Dark Knight", "Pulp Fiction", "Interstellar"]
 
 # 1 - Tamanho da lista
 print(len(filmsList))
@@ -7,7 +7,7 @@ print(len(filmsList))
 # 2 - Recuperar um item da lista pelo nome
 print(filmsList.index("Interstellar"))
 
-# 3 - ADicionar item ao final da lista
+# 3 - Adicionar item ao final da lista
 filmsList.append("The Lord of the Rings")
 print(filmsList)
 
